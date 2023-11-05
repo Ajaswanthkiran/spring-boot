@@ -1,5 +1,5 @@
 FROM maven:3.8.5-openjdk-17 as build
-COPY . .
+COPY OBS .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.2-jdk-slim
