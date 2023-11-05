@@ -1,0 +1,165 @@
+/* Global styles */
+.body-class {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+/* Default styles for the navigation bar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+/* Add styles for the collapsed navigation bar at smaller screen sizes */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .user-profile {
+        margin-top: 20px;
+    }
+
+    /* Adjust other styles as needed */
+}
+
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.ell {
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.login{
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+    display: contents;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.ell:hover {
+    color: #007bff;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Dropdown menu */
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.el {
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.el:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+.right{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.search-this {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+}
+
+button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+

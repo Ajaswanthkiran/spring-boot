@@ -1,0 +1,41 @@
+/* Style for the navigation bar */
+header {
+    background-color: #fff; /* Background color of the header */
+    color: #333; /* Text color */
+
+    padding: 10px 0; /* Add some padding to the top and bottom */
+}
+
+nav ul {
+    list-style-type: none; /* Remove list bullets */
+
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Text color for links */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Change link color on hover */
+nav ul li a:hover {
+    color: #FF5733; /* Change to your desired hover color */
+}
+
+/* Style for the main content */
+main {
+    margin: 20px; /* Add some margin to separate the content from the header */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #fff; /* Background color of the footer */
+    color: #333; /* Text color */
+    text-align: center;
+    padding: 10px 0; /* Add some padding to the top and bottom */
+}

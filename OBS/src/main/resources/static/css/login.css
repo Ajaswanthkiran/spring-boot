@@ -1,0 +1,131 @@
+body.login-body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sin{
+padding-top:3%;
+}
+.otp-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .otp-button:hover {
+            background-color: #0056b3;
+        }
+.login-container {
+    text-align: center;
+    padding-right:600px;
+    padding-left:600px;
+    padding-top:150px;
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 44px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.un{    border: 1px solid #ccc;
+    outline: honeydew;
+    flex: 1;
+    padding: 10px;
+    border-radius: -5px;
+    background-color: #ffffff;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #357ae8;
+}
+
+.additional-options {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.forgot-password,
+.create-account {
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.separator {
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+button.google-login,
+button.facebook-login {
+    background-color:white;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+
+    cursor: pointer;
+
+}
+
+button.facebook-login {
+    background-color: white;
+
+}
+
+button.google-login:hover,
+button.facebook-login:hover {
+    background-color: white;
+}
+
+.otp-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+}
+.otp-button:hover {
+            background-color: #0056b3;
+        }
